@@ -56,6 +56,6 @@ case $MODE in
     # show embeded flash player url
     echo "$FINALURL" | sed -e "s%{rtmpurl}%"$url"%g";;
   *)
-    echo "Error: parameter 3 can be 'flash' or 'rtmp'. Default is rtmp. Aborting";;
+    echo "Error: parameter 3 can be 'flash' or 'rtmp'. Aborting";;
 esac 
 
